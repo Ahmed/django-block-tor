@@ -9,12 +9,16 @@ I wrote this middleware due to lot of spamming from Tor network on my website.
 Quick start
 -----------
 
+1. Go to the root of your django project and download this package::
 
-1. Install the missing requirement::
+    git clone git@github.com:Ahmed/django-block-tor.git
+
+
+2. Install the missing requirement::
 
     pip install -r requirements.txt
 
-2. Add "BlockTorMiddleware" to your MIDDLEWARE_CLASSES setting like this::
+3. Add "BlockTorMiddleware" to your MIDDLEWARE_CLASSES setting like this::
 
     MIDDLEWARE_CLASSES = (
         ...
@@ -22,4 +26,4 @@ Quick start
     )
 
 
-3. That's it ;)
+4. That's it ;)
