@@ -3,10 +3,8 @@ BlockTorMiddleware
 ==================
 
 BlockTorMiddleware is a middleware to automatically block users from Tor network.
-If user enter from Tor network, 404 page will be returned. If you need
-
-I urge you to not use this middleware unless you have too. I wrote this middleware due to
- a lot of spamming from Tor network on my website.
+If user enter from Tor network, 404 page will be returned. I urge you to not use this middleware unless you have too.
+I wrote this middleware due to lot of spamming from Tor network on my website.
 
 Quick start
 -----------
