@@ -11,7 +11,7 @@ Quick start
 
 1. Go to the root of your django project and download this package::
 
-    git clone git@github.com:Ahmed/django-block-tor.git
+    git clone https://github.com/Ahmed/django-block-tor.git
 
 
 2. Install the missing requirement::
