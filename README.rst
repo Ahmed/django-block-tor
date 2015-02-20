@@ -18,7 +18,7 @@ Quick start
 
     pip install -r requirements.txt
 
-3. Add "BlockTorMiddleware" *at the end of* MIDDLEWARE_CLASSES setting like this::
+3. Add "BlockTorMiddleware" **at the end of** MIDDLEWARE_CLASSES setting like this::
 
     MIDDLEWARE_CLASSES = (
         ...
